@@ -7,11 +7,11 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone git@github.com:
+    git clone https://github.com/rachana2522/Resume_builder_website.git
 
 Switch to the repo folder
 
-    cd HireKarma-Web
+    cd Resume_builder_website
 
 Install all the dependencies using composer
 
@@ -35,13 +35,7 @@ Start the local development server
 
 You can now access the server at http://localhost:8000
 
-**TL;DR command list**
 
-    git clone git@github.com:hirekarmapl/HireKarma-Web.git
-    cd HireKarma-Web
-    composer install
-    cp .env.example .env
-    php artisan key:generate
     
 **Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
 
